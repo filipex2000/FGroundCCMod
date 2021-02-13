@@ -74,7 +74,7 @@ function Create(self)
 			true, -- Pri
 			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 		}
 	}
 	]]
@@ -347,7 +347,7 @@ function Create(self)
 			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{}, -- Sec
+			{} -- Sec
 		},
 		Basic = {
 			-- 10
@@ -613,7 +613,7 @@ function Create(self)
 			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{}, -- Sec
+			{} -- Sec
 		},
 		Funky = {
 			-- 10
@@ -879,7 +879,7 @@ function Create(self)
 			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{}, -- Sec
+			{} -- Sec
 		},
 		Funkalicious = {
 			-- 10
@@ -1145,7 +1145,7 @@ function Create(self)
 			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{}, -- Sec
+			{} -- Sec
 		},
 		Beat = {
 			-- 1
@@ -1154,264 +1154,264 @@ function Create(self)
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 2
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 3
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 4
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 5
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 6
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 7
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 8
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 9
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 10
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 11
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 12
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 13
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 14
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 15
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 16
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 17
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 18
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 19
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 20
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 21
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 22
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 23
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			-- 24
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			true, -- Pri
-			false -- Sec
+			false, -- Sec
 			--
 		}
 	}
