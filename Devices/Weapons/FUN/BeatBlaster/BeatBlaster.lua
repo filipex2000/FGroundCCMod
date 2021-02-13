@@ -1504,6 +1504,19 @@ function Update(self)
 					if not self.fired then
 						self.soundHitSuccessful:Play(self.Pos)
 						
+						-- Projectile
+						local velocity = 100
+						local spread = 0
+						for i = 1, 4 do
+							local bullet = CreateMOPixel("The Beat Blaster Projectile", "FGround.rte")
+							bullet.Pos = self.MuzzlePos
+							bullet.Vel = self.Vel + Vector(velocity * self.FlipFactor,0):RadRotate(self.RotAngle + RangeRand(-math.rad(spread), math.rad(spread)))
+							bullet.Team = self.Team
+							bullet.IgnoresTeamHits = true
+							MovableMan:AddParticle(bullet);
+						end
+						
+						-- Notes
 						for i = 1, math.random(2,3) do
 							local spread = math.pi * RangeRand(-1, 1) * 0.15
 							local velocity = 45 * RangeRand(0.1, 0.9);
