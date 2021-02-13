@@ -1647,7 +1647,7 @@ function Update(self)
 			self.beatCurrentMusicScore = self.beatCurrentMusicScore - math.random(2,3)
 		end
 		
-		self.beatCurrentMusicScore = math.min(math.max(self.beatCurrentMusicScore, 0), 25)
+		self.beatCurrentMusicScore = math.min(math.max(self.beatCurrentMusicScore, 0), 45)
 		self.beatCurrentMusicStage = math.min(math.ceil(math.max(self.beatCurrentMusicScore / 10 + 0.5, 0)), 4)
 		
 		
@@ -1660,27 +1660,34 @@ function Update(self)
 			self.beatDrumHihat = self.beatSounds["Drum Hihat"..stages[stage].." "..music.Hihat]
 			
 			
-			for i = 1, self.beatCurrentMusicStage do
+			local maxi = self.beatCurrentMusicStage
+			for i = 1, maxi do
 				local notes = music[self.beatMusicStages[i]][beat]
 				for i, note in ipairs(notes) do
 					if note and note ~= "" then
 						local soundContainer = nil
+						local drum = false
 						if note == "Drum Kick" then
 							soundContainer = self.beatDrumKick
+							drum = true
 						elseif note == "Drum Snare" then
 							soundContainer = self.beatDrumSnare
+							drum = true
 						elseif note == "Drum Hihat" then
 							soundContainer = self.beatDrumHihat
+							drum = true
 						else
 							soundContainer = self.beatSounds[note]
 						end
 						
+						--if not drum or i == maxi then
 						if beatCanHit then
 							soundContainer.Volume = 2.0
 						else
 							soundContainer.Volume = 1.0
 						end
 						soundContainer:Play(self.Pos)
+						--end
 						
 					end
 				end

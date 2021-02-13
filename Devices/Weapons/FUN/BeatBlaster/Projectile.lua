@@ -50,9 +50,6 @@ function Update(self)
 				note.Vel = Vector(RangeRand(-1, 1), RangeRand(-1, 1)) * 5
 				note.Lifetime = note.Lifetime * RangeRand(0.9, 1.6)
 				MovableMan:AddParticle(note);
-				
-				self.fired = false
-				self.beatCurrentMusicScore = self.beatCurrentMusicScore + 1
 			end
 		end
 	end
