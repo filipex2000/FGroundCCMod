@@ -1605,9 +1605,9 @@ function Update(self)
 						self.soundHitSuccessful:Play(self.Pos)
 						
 						-- Projectile
-						local velocity = 100
+						local velocity = 25 * self.beatCurrentMusicStage
 						local spread = 0
-						for i = 1, 4 do
+						for i = 1, (self.beatCurrentMusicStage) do
 							local bullet = CreateMOPixel("The Beat Blaster Projectile", "FGround.rte")
 							bullet.Pos = self.MuzzlePos
 							bullet.Vel = self.Vel + Vector(velocity * self.FlipFactor,0):RadRotate(self.RotAngle + RangeRand(-math.rad(spread), math.rad(spread)))
@@ -1632,7 +1632,7 @@ function Update(self)
 						end
 					end
 				else
-					self.beatCurrentMusicScore = self.beatCurrentMusicScore - 10
+					self.beatCurrentMusicScore = self.beatCurrentMusicScore - 15
 					self.soundHitFail:Play(self.Pos)
 				end
 				
@@ -1682,7 +1682,7 @@ function Update(self)
 						
 						--if not drum or i == maxi then
 						if beatCanHit then
-							soundContainer.Volume = 2.0
+							soundContainer.Volume = 1.0
 						else
 							soundContainer.Volume = 1.0
 						end

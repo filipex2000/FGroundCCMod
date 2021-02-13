@@ -43,7 +43,7 @@ function Update(self)
 				MovableMan:AddParticle(smoke);
 			end
 			
-			local note = (math.random() < 0.05 and CreateMOSParticle("Beat Blaster Note "..math.random(1,3), "FGround.rte") or nil)
+			local note = (math.random() < 0.015 and CreateMOSParticle("Beat Blaster Note "..math.random(1,3), "FGround.rte") or nil)
 			if note then
 				
 				note.Pos = self.Pos - offset * (1 - (i/trailLength)) * RangeRand(0.9, 1.1);
