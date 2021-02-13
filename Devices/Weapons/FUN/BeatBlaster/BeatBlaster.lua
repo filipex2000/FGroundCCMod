@@ -1,7 +1,8 @@
 
 function Create(self)
 	-- Sounds
-	self.soundHitSuccessful = CreateSoundContainer("Beat Blaster Hit Successful", "FGround.rte");
+	self.soundHitSuccessful = CreateSoundContainer("Beat Blaster Hit Success", "FGround.rte");
+	self.soundHitFail = CreateSoundContainer("Beat Blaster Hit Fail", "FGround.rte");
 	
 	self.beatSounds = {}
 	
@@ -29,6 +30,7 @@ function Create(self)
 	self.beatMusicList = {"Choco"}
 	self.beatMusicStages = {"None", "Basic", "Funky", "Funkalicious"}
 	
+	--[[
 	self.beatMusic["Choco"] = {
 		Length = 6,
 		Kick = "A",
@@ -75,6 +77,1344 @@ function Create(self)
 			false -- Sec
 		}
 	}
+	]]
+	self.beatMusic["Choco"] = {
+		Length = 240,
+		Kick = "A",
+		Snare = "A",
+		Hihat = "A",
+		None = {
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 20
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 30
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 40
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 50
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 60
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 70
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 80
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 90
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 100
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 110
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 120
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 130
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 140
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 150
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 160
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 170
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 180
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 190
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 200
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 210
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 220
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 230
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 240
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+		},
+		Basic = {
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 20
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 30
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 40
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 50
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 60
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 70
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 80
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 90
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 100
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 110
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 120
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 130
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 140
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 150
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 160
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 170
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 180
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 190
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 200
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 210
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 220
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 230
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 240
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+		},
+		Funky = {
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 20
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 30
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 40
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 50
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 60
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 70
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 80
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 90
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 100
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 110
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 120
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 130
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 140
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 150
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 160
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 170
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 180
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 190
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 200
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 210
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 220
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 230
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 240
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+		},
+		Funkalicious = {
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 20
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 30
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 40
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 50
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 60
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 70
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 80
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 90
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 100
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 110
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 120
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 130
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 140
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 150
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 160
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 170
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 180
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 190
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 200
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 210
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 220
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 230
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 240
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+		},
+		Beat = {
+			-- 1
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 2
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 3
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 4
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 5
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 6
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 7
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 8
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 9
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 10
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 11
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 12
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 13
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 14
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 15
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 16
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 17
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 18
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 19
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 20
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 21
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 22
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 23
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			-- 24
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			true, -- Pri
+			false -- Sec
+			--
+		}
+	}
 	
 	self.beatCurrentMusic = self.beatMusicList[1]
 	self.beatCurrentMusicBeat = 1
@@ -85,6 +1425,8 @@ function Create(self)
 	self.BPM = 240
 	
 	self.beatHitDetectionTimer = Timer()
+	
+	self.beatScoreDecayTimer = Timer()
 	
 	self.activated = false
 	self.fired = false
@@ -156,15 +1498,29 @@ function Update(self)
 		
 		if self:IsActivated() then
 			if not self.activated then
+				self.beatScoreDecayTimer:Reset()
 				
 				if canHit then
 					if not self.fired then
 						self.soundHitSuccessful:Play(self.Pos)
-						self.fired = false
-						self.beatCurrentMusicScore = self.beatCurrentMusicScore + 1
+						
+						for i = 1, math.random(2,3) do
+							local spread = math.pi * RangeRand(-1, 1) * 0.15
+							local velocity = 45 * RangeRand(0.1, 0.9);
+							
+							local particle = CreateMOSParticle("Beat Blaster Note "..math.random(1,3), "FGround.rte")
+							particle.Pos = self.MuzzlePos
+							particle.Vel = self.Vel + Vector(velocity * self.FlipFactor,0):RadRotate(self.RotAngle + spread)
+							particle.Lifetime = particle.Lifetime * RangeRand(0.9, 1.6)
+							MovableMan:AddParticle(particle);
+							
+							self.fired = false
+							self.beatCurrentMusicScore = self.beatCurrentMusicScore + 1
+						end
 					end
 				else
-					self.beatCurrentMusicScore = - 5
+					self.beatCurrentMusicScore = self.beatCurrentMusicScore - 10
+					self.soundHitFail:Play(self.Pos)
 				end
 				
 				self.activated = true
@@ -172,8 +1528,14 @@ function Update(self)
 		else
 			self.activated = false
 		end
-		self.beatCurrentMusicScore = math.max(self.beatCurrentMusicScore, 0)
-		self.beatCurrentMusicStage = math.min(math.ceil(math.max(self.beatCurrentMusicScore / 5 + 0.5, 0)), 4)
+		
+		if self.beatScoreDecayTimer:IsPastSimMS(800) then
+			self.beatScoreDecayTimer:Reset()
+			self.beatCurrentMusicScore = self.beatCurrentMusicScore - math.random(2,3)
+		end
+		
+		self.beatCurrentMusicScore = math.min(math.max(self.beatCurrentMusicScore, 0), 25)
+		self.beatCurrentMusicStage = math.min(math.ceil(math.max(self.beatCurrentMusicScore / 10 + 0.5, 0)), 4)
 		
 		
 		if self.beatTimer:IsPastSimMS(msPerBeat) then
@@ -218,6 +1580,9 @@ function Update(self)
 	
 	else
 		self.beatTimer:Reset()
+		
+		self.beatCurrentMusicScore = 0
+		
 		self.Frame = 0
 		self.Scale = 1.0
 	end
