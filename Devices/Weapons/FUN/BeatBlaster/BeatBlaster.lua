@@ -100,1136 +100,1292 @@ function Create(self)
 		Snare = "A",
 		Hihat = "A",
 		None = {
-			-- 10
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
+			-- 1
+			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
+			-- 2
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 3
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 4
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 5
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 6
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 7
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 8
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 9
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 11
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 12
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 13
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 14
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 15
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 16
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 17
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 18
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 19
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
 			{}, -- Sec
 			-- 20
-			{"Drum Snare"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Kick"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Snare"}, -- Pri
+			-- 21
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Kick"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
+			-- 22
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 23
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 24
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 25
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 26
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 27
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 28
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 29
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
 			{}, -- Sec
 			-- 30
 			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			{"Drum Kick", "Drum Snare", "Drum Hihat"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Snare"}, -- Pri
+			-- 31
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
+			{}, -- Pri
+			{}, -- Sec
+			-- 32
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 33
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 34
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 35
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 36
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 37
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 38
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 39
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
 			{}, -- Sec
 			-- 40
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
+			{}, -- Sec
+			-- 41
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 42
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 43
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 44
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 45
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 46
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 47
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 48
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 49
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
 			{}, -- Sec
 			-- 50
-			{"Drum Kick", "Drum Hihat"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Snare"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Kick"}, -- Pri
+			-- 51
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Snare"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
-			{"Drum Kick"}, -- Pri
+			-- 52
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 53
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 54
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 55
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 56
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 57
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 58
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 59
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
 			{}, -- Sec
 			-- 60
-			{"Drum Snare", "Drum Hihat"}, -- Pri
+			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
 			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			-- 70
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
+			-- 61
+			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			-- 80
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
+			-- 62
+			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			-- 90
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
+			-- 63
+			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			-- 100
-			{"Drum Snare"}, -- Pri
+			-- 64
+			{}, -- Pri
 			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			-- 110
-			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			-- 120
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 130
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Snare"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			-- 140
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			-- 150
-			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			-- 160
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			-- 170
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			-- 180
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			-- 190
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Kick", "Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{}, -- Sec
-			-- 200
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			-- 210
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			-- 220
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			-- 230
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{}, -- Pri
-			{"Drum Kick"}, -- Sec
-			-- 240
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			-- 250
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{}, -- Sec
-			{"Drum Kick", "Drum Hihat"}, -- Pri
-			{}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"} -- Sec
+			{}  -- Sec
 		},
 		Basic = {
-			-- 10
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			-- 1
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 2
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 3
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 4
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 5
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 6
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 7
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 8
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 9
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 11
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 12
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 13
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 14
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 15
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 16
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 17
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 18
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 19
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
 			-- 20
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 21
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 22
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 23
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 24
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 25
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 26
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 27
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 28
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 29
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
 			-- 30
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 40
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 50
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 60
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			-- 70
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 80
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 90
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 100
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 110
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 120
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 130
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 140
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			-- 150
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 160
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			-- 170
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 180
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			-- 31
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 190
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 200
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 210
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 220
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 230
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			-- 32
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 240
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			-- 250
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"} -- Sec
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 33
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 34
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 35
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 36
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 37
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 38
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 39
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 40
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 41
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 42
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 43
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 44
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 45
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 46
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 47
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 48
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 49
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 50
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 51
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 52
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 53
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 54
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 55
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 56
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 57
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 58
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 59
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 60
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 61
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 62
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 63
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 64
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}  -- Sec
 		},
 		Funky = {
-			-- 10
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			-- 1
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 2
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 3
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 4
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 5
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 6
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 7
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 8
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 9
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 11
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 12
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 13
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 14
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 15
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 16
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 17
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 18
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 19
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
 			-- 20
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 21
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 22
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 23
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 24
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 25
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 26
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 27
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 28
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 29
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
 			-- 30
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 40
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 50
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 60
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			-- 70
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 80
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 90
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 100
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 110
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 120
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 130
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 140
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			-- 150
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 160
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			-- 170
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 180
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			-- 31
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 190
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 200
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 210
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 220
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 230
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			-- 32
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 240
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			-- 250
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"} -- Sec
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 33
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 34
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 35
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 36
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 37
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 38
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 39
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 40
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 41
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 42
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 43
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 44
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 45
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 46
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 47
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 48
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 49
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 50
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 51
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 52
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 53
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 54
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 55
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 56
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 57
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 58
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 59
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 60
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 61
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 62
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 63
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 64
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}  -- Sec
 		},
 		Funkalicious = {
-			-- 10
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			-- 1
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 2
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 3
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 4
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 5
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 6
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 7
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 8
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 9
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 10
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 11
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 12
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 13
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 14
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 15
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 16
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 17
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 18
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 19
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
 			-- 20
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 21
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 22
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 23
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 24
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 25
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 26
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 27
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 28
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 29
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
 			-- 30
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 40
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 50
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 60
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			-- 70
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 80
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 90
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 100
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 110
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 120
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 130
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{}, -- Pri
-			{"Drum Kick", "Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 140
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
 			{}, -- Sec
-			-- 150
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 160
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare"}, -- Sec
-			-- 170
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 180
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			-- 31
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 190
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick", "Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 200
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 210
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 220
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			-- 230
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
+			{}, -- Sec
+			-- 32
 			{}, -- Pri
-			{"Drum Kick", "Drum Hihat"}, -- Sec
-			-- 240
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			-- 250
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Kick"}, -- Pri
-			{"Drum Snare", "Drum Hihat"}, -- Sec
-			{"Drum Snare"}, -- Pri
-			{"Drum Snare", "Drum Hihat"} -- Sec
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 33
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 34
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 35
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 36
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 37
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 38
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 39
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 40
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 41
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 42
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 43
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 44
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 45
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 46
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 47
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 48
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 49
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 50
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 51
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 52
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 53
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 54
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 55
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 56
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 57
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 58
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 59
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 60
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 61
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 62
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 63
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}, -- Sec
+			-- 64
+			{}, -- Pri
+			{}, -- Sec
+			{}, -- Pri
+			{}  -- Sec
 		},
 		Beat = {
 			-- 1
@@ -1237,283 +1393,321 @@ function Create(self)
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 2
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 3
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 4
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 5
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 6
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 7
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 8
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 9
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 10
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 11
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 12
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 13
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 14
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 15
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 16
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 17
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 18
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 19
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 20
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 21
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 22
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 23
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 24
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
-			true, -- Pri
-			false, -- Sec
 			-- 25
 			true, -- Pri
 			false,-- Sec
 			true, -- Pri
 			false,-- Sec
+			-- 26
 			true, -- Pri
-			false, -- Sec
+			false,-- Sec
 			true, -- Pri
-			false, -- Sec
+			false,-- Sec
+			-- 27
 			true, -- Pri
-			false, -- Sec
+			false,-- Sec
 			true, -- Pri
-			false, -- Sec
+			false,-- Sec
+			-- 28
 			true, -- Pri
-			false, -- Sec
+			false,-- Sec
 			true, -- Pri
-			false, -- Sec
-			--
+			false,-- Sec
+			-- 29
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 30
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 31
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 32
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 33
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 34
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 35
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 36
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 37
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 38
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 39
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 40
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 41
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 42
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 43
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 44
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 45
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 46
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 47
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 48
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 49
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 50
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 51
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 52
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 53
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 54
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 55
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 56
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 57
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 58
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 59
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 60
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 61
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 62
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 63
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false,-- Sec
+			-- 64
+			true, -- Pri
+			false,-- Sec
+			true, -- Pri
+			false-- Sec
 		}
 	}
 	
