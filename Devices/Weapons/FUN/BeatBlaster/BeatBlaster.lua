@@ -95,6 +95,7 @@ function Create(self)
 	]]
 	self.beatMusic["Choco"] = {
 		Length = 256,
+		BPM = {240, 280, 320, 360},
 		Kick = "A",
 		Snare = "A",
 		Hihat = "A",
@@ -1655,6 +1656,8 @@ function Update(self)
 			local stage = self.beatCurrentMusicStage
 			local stages = {"", " Basic", " Funky", " Funkalicious"}
 			
+			--self.BPM = music.BPM[stage]
+			
 			self.beatDrumKick = self.beatSounds["Drum Kick"..stages[stage].." "..music.Kick]
 			self.beatDrumSnare = self.beatSounds["Drum Snare"..stages[stage].." "..music.Snare]
 			self.beatDrumHihat = self.beatSounds["Drum Hihat"..stages[stage].." "..music.Hihat]
@@ -1663,31 +1666,31 @@ function Update(self)
 			local maxi = self.beatCurrentMusicStage
 			for i = 1, maxi do
 				local notes = music[self.beatMusicStages[i]][beat]
-				for i, note in ipairs(notes) do
+				--local notes = music[self.beatMusicStages[self.beatCurrentMusicStage]][beat]
+				for j, note in ipairs(notes) do
 					if note and note ~= "" then
 						local soundContainer = nil
-						local drum = false
+						local drum = true
 						if note == "Drum Kick" then
 							soundContainer = self.beatDrumKick
-							drum = true
 						elseif note == "Drum Snare" then
 							soundContainer = self.beatDrumSnare
-							drum = true
 						elseif note == "Drum Hihat" then
 							soundContainer = self.beatDrumHihat
-							drum = true
 						else
+							drum = false
 							soundContainer = self.beatSounds[note]
 						end
 						
-						--if not drum or i == maxi then
-						if beatCanHit then
-							soundContainer.Volume = 1.0
-						else
-							soundContainer.Volume = 1.0
+						if not drum or i == maxi then
+							if beatCanHit then
+								soundContainer.Volume = 1.2
+							else
+								soundContainer.Volume = 1.0
+							end
+							
+							soundContainer:Play(self.Pos)
 						end
-						soundContainer:Play(self.Pos)
-						--end
 						
 					end
 				end
