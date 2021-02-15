@@ -1857,10 +1857,11 @@ function Update(self)
 			self.beatDrumHihat = self.beatSounds["Drum Hihat"..stages[stage].." "..music.Hihat]
 			
 			
-			local maxi = self.beatCurrentMusicStage
-			for i = 1, maxi do
-				local notes = music[self.beatMusicStages[i]][beat]
-				--local notes = music[self.beatMusicStages[self.beatCurrentMusicStage]][beat]
+			
+			--local maxi = self.beatCurrentMusicStage
+			--for i = 1, maxi do
+				--local notes = music[self.beatMusicStages[i]][beat]
+				local notes = music[self.beatMusicStages[self.beatCurrentMusicStage]][beat]
 				for j, note in ipairs(notes) do
 					if note and note ~= "" then
 						local soundContainer = nil
@@ -1876,7 +1877,7 @@ function Update(self)
 							soundContainer = self.beatSounds[note]
 						end
 						
-						if not drum or i == maxi then
+						--if not drum or i == maxi then
 							if beatCanHit then
 								soundContainer.Volume = 1.2
 							else
@@ -1884,11 +1885,11 @@ function Update(self)
 							end
 							
 							soundContainer:Play(self.Pos)
-						end
+						--end
 						
 					end
 				end
-			end
+			--end
 			
 			self.fired = false
 			self.beatTimer:Reset()
