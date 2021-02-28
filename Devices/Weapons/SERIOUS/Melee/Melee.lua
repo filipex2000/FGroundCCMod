@@ -240,7 +240,7 @@ function Update(self)
 		rotTarget = self.FlipFactor * (rotAttack + rotCharge)
 	end
 	local pushVector = Vector(10 * self.FlipFactor, 0):RadRotate(self.RotAngle)
-	local attacVec = Vector(math.min(math.max(self.Radius, 18), 30) * 1.6 * self.FlipFactor,0):RadRotate(self.RotAngle);
+	local attacVec = Vector(math.min(math.max(self.IndividualRadius, 18), 30) * 1.6 * self.FlipFactor,0):RadRotate(self.RotAngle);
 	
 	self.rot = (self.rot + rotTarget * TimerMan.DeltaTimeSecs * 17 * self.animSpeed) / (1 + TimerMan.DeltaTimeSecs * 17 * self.animSpeed);
 	self.StanceOffset = self.originalStanceOffset + stance * 1.1
@@ -270,7 +270,7 @@ function Update(self)
 		local team = 0
 		if actor then team = actor.Team end
 		local m = self.charged and (self:NumberValueExists("ChargedRangeMultiplier") and self:GetNumberValue("ChargedRangeMultiplier") or 1) or (self:NumberValueExists("RangeMultiplier") and self:GetNumberValue("RangeMultiplier") or 1)
-		local rayVec = ((self.attackVel:SetMagnitude(math.max((self.attackVel.Magnitude + self.Radius) / 2.0, self.attackVel.Magnitude) * 1.1) + attacVec) / 3.0) * m
+		local rayVec = ((self.attackVel:SetMagnitude(math.max((self.attackVel.Magnitude + self.IndividualRadius) / 2.0, self.attackVel.Magnitude) * 1.1) + attacVec) / 3.0) * m
 		local rayOrigin = self.Pos + attackOffset
 		
 		if self:NumberValueExists("DebugRange") and self:GetNumberValue("DebugRange") ~= 0 then

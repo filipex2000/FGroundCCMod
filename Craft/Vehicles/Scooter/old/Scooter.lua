@@ -112,7 +112,7 @@ function Update(self)
 				PrimitiveMan:DrawCirclePrimitive(wheel.Pos, 5, 13);
 				local maxi = 7
 				for i = 0, maxi do
-					local checkVec = Vector(wheel.Radius * 0.75,0):RadRotate(math.pi * 2 / maxi * i + wheel.RotAngle)
+					local checkVec = Vector(wheel.IndividualRadius * 0.75,0):RadRotate(math.pi * 2 / maxi * i + wheel.RotAngle)
 					local checkOrigin = Vector(wheel.Pos.X, wheel.Pos.Y) + checkVec
 					local checkPix = SceneMan:GetTerrMatter(checkOrigin.X, checkOrigin.Y)
 					
@@ -136,14 +136,14 @@ function Update(self)
 	for i = 0, maxi do
 		local fac = i / maxi
 		
-		local pointA = Vector(-self.Radius * 0.92, 0)
-		local pointB = Vector(self.Radius * 0.92, 0)
-		local pointOffset =  Vector(0, self.Radius * 0.65)
+		local pointA = Vector(-self.IndividualRadius * 0.92, 0)
+		local pointB = Vector(self.IndividualRadius * 0.92, 0)
+		local pointOffset =  Vector(0, self.IndividualRadius * 0.65)
 		local point = pointA * fac + pointB * (1 - fac) + pointOffset * math.pow(math.sin(fac * math.pi), 1.0)
 		point = point + Vector(0, 3)
 		point = point:RadRotate(self.RotAngle) + self.Pos
 		PrimitiveMan:DrawCirclePrimitive(point, 1, 13);
-		--PrimitiveMan:DrawLinePrimitive(self.Pos + Vector(self.Radius, 0), self.Pos + Vector(-self.Radius, 0), 13);
+		--PrimitiveMan:DrawLinePrimitive(self.Pos + Vector(self.IndividualRadius, 0), self.Pos + Vector(-self.IndividualRadius, 0), 13);
 	end
 	--[[
 	local wheelDeviation = SceneMan:ShortestDistance(self.springA.targetPos[1], self.wheelA.Pos, SceneMan.SceneWrapsX):RadRotate(-self.springA.rotAngle);

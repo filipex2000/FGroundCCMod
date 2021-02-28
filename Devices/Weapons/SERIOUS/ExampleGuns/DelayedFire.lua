@@ -48,7 +48,7 @@ function Update(self)
 				self.activated = true
 				
 				-- REPLACE WITH YOUR SOUND
-				AudioMan:PlaySound("FGround.rte/Devices/Weapons/SERIOUS/ExampleGuns/Sounds/Pre.wav", self.Pos)
+				AudioMan:PlaySound("FGround.rte/Devices/Weapons/SERIOUS/ExampleGuns/Sounds/Pre1.ogg", self.Pos)
 				-- REPLACE WITH YOUR SOUND
 				
 				self.delayedFire = true

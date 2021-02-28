@@ -1,6 +1,6 @@
 function Create(self)
 	self.setRecoilAngle = 0;
-	self.recoilAngleSize = 1/math.sqrt(self.Radius);
+	self.recoilAngleSize = 1/math.sqrt(self.IndividualRadius);
 	self.recoilAngleVariation = 0.03;
 	
 	self.state = 0

@@ -10,7 +10,7 @@ function mathSign(x)
 end
 
 function Create(self)
-	--PrimitiveMan:DrawCirclePrimitive(self.Pos, self.Radius, 13);
+	--PrimitiveMan:DrawCirclePrimitive(self.Pos, self.IndividualRadius, 13);
 	self.flipTimer = Timer()
 	self.flipDelay = 100
 	
@@ -45,7 +45,7 @@ function Update(self)
 			
 			local effect = CreateMOSRotating("Novamech Death Explosion");
 			if effect then
-				effect.Pos = self.Pos + Vector(RangeRand(-1,1), RangeRand(-1,1)) * self.Radius;
+				effect.Pos = self.Pos + Vector(RangeRand(-1,1), RangeRand(-1,1)) * self.IndividualRadius;
 				MovableMan:AddParticle(effect);
 				effect:GibThis();
 				self.deathExplosions = self.deathExplosions + 1
@@ -75,7 +75,7 @@ function Update(self)
 		if diff > 30 and math.random(1,2) < 2 then
 			local effect = CreateMOSRotating("Novamech Death Explosion");
 			if effect then
-				effect.Pos = self.Pos + Vector(RangeRand(-1,1), RangeRand(-1,1)) * self.Radius;
+				effect.Pos = self.Pos + Vector(RangeRand(-1,1), RangeRand(-1,1)) * self.IndividualRadius;
 				MovableMan:AddParticle(effect);
 				effect:GibThis();
 			end
@@ -83,7 +83,7 @@ function Update(self)
 		self.lastHealth = self.Health - 0
 	end
 	
-	--PrimitiveMan:DrawCirclePrimitive(self.Pos, self.Radius, 13);
+	--PrimitiveMan:DrawCirclePrimitive(self.Pos, self.IndividualRadius, 13);
 	
 	-- Physics
 	local contactAmoutMax = 0
@@ -241,7 +241,7 @@ function OnCollideWithTerrain(self, terrainID)
 	
 	if math.random(1,3) < 2 then
 		-- Custom move out of terrain script, EXPERIMENTAL
-		local radius = self.Radius
+		local radius = self.IndividualRadius
 		--PrimitiveMan:DrawCirclePrimitive(self.Pos, radius, 13);
 		local maxi = 6
 		for i = 1, maxi do

@@ -179,7 +179,7 @@ function Update(self)
 					--PrimitiveMan:DrawCirclePrimitive(wheel.Pos, 5, 13);
 					local maxi = 13
 					for i = 0, maxi do
-						local checkVec = Vector(wheel.Radius * (0.75 - 0.15 * j),0):RadRotate(math.pi * 2 / maxi * i + wheel.RotAngle)
+						local checkVec = Vector(wheel.IndividualRadius * (0.75 - 0.15 * j),0):RadRotate(math.pi * 2 / maxi * i + wheel.RotAngle)
 						local checkOrigin = Vector(wheel.Pos.X, wheel.Pos.Y) + checkVec + Vector(self.Vel.X, self.Vel.Y) * rte.PxTravelledPerFrame * 0.3
 						local checkPix = SceneMan:GetTerrMatter(checkOrigin.X, checkOrigin.Y)
 						
@@ -237,9 +237,9 @@ function Update(self)
 	for i = 0, maxi do
 		local fac = i / maxi
 		
-		local pointA = Vector(-self.Radius * 0.92, 0) + Vector(self.Vel.X, self.Vel.Y):RadRotate(-self.RotAngle) * rte.PxTravelledPerFrame
-		local pointB = Vector(self.Radius * 0.92, 0) + Vector(self.Vel.X, self.Vel.Y):RadRotate(-self.RotAngle) * rte.PxTravelledPerFrame
-		local pointOffset =  Vector(0, self.Radius * 0.65)
+		local pointA = Vector(-self.IndividualRadius * 0.92, 0) + Vector(self.Vel.X, self.Vel.Y):RadRotate(-self.RotAngle) * rte.PxTravelledPerFrame
+		local pointB = Vector(self.IndividualRadius * 0.92, 0) + Vector(self.Vel.X, self.Vel.Y):RadRotate(-self.RotAngle) * rte.PxTravelledPerFrame
+		local pointOffset =  Vector(0, self.IndividualRadius * 0.65)
 		local vec = pointA * fac + pointB * (1 - fac) + pointOffset * math.pow(math.sin(fac * math.pi), 0.5)
 		vec = vec + Vector(0, 3)
 		local point = Vector(vec.X, vec.Y):RadRotate(self.RotAngle) + self.Pos
@@ -252,7 +252,7 @@ function Update(self)
 		else
 			PrimitiveMan:DrawLinePrimitive(point, point, 5);
 		end
-		--PrimitiveMan:DrawLinePrimitive(self.Pos + Vector(self.Radius, 0), self.Pos + Vector(-self.Radius, 0), 13);
+		--PrimitiveMan:DrawLinePrimitive(self.Pos + Vector(self.IndividualRadius, 0), self.Pos + Vector(-self.IndividualRadius, 0), 13);
 	end
 	
 	-- Balance

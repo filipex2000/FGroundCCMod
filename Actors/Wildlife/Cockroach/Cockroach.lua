@@ -178,7 +178,7 @@ function Update(self)
 		local maxi = 10
 		for j = -1, 0 do
 			for i = 0, maxi do
-				local checkVec = Vector(self.Radius * (1.2 + 0.3 * j),0):RadRotate(math.pi * 2 / maxi * i) 
+				local checkVec = Vector(self.IndividualRadius * (1.2 + 0.3 * j),0):RadRotate(math.pi * 2 / maxi * i) 
 				--checkVec = Vector(checkVec.X * 1.2, checkVec.Y)
 				checkVec:RadRotate(self.RotAngle)
 				

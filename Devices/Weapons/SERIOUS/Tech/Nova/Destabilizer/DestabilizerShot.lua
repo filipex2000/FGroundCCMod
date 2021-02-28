@@ -88,20 +88,20 @@ function Update(self)
 			for limb in self.target.Attachables do
 				local pos = Vector(limb.Pos.X, limb.Pos.Y)
 				local offset = center - pos
-				if (offset.X + limb.Radius) > right then right = offset.X + limb.Radius end
-				if (offset.X - limb.Radius) < left then left = offset.X - limb.Radius end
+				if (offset.X + limb.IndividualRadius) > right then right = offset.X + limb.IndividualRadius end
+				if (offset.X - limb.IndividualRadius) < left then left = offset.X - limb.IndividualRadius end
 				
-				if (offset.Y - limb.Radius) < lowest then lowest = offset.Y - limb.Radius end
-				if (offset.Y + limb.Radius) > highest then highest = offset.Y + limb.Radius end
+				if (offset.Y - limb.IndividualRadius) < lowest then lowest = offset.Y - limb.IndividualRadius end
+				if (offset.Y + limb.IndividualRadius) > highest then highest = offset.Y + limb.IndividualRadius end
 				
 				for gear in limb.Attachables do
 					local pos = Vector(gear.Pos.X, gear.Pos.Y)
 					local offset = center - pos
-					if (offset.X + gear.Radius) > right then right = offset.X + gear.Radius end
-					if (offset.X - gear.Radius) < left then left = offset.X - gear.Radius end
+					if (offset.X + gear.IndividualRadius) > right then right = offset.X + gear.IndividualRadius end
+					if (offset.X - gear.IndividualRadius) < left then left = offset.X - gear.IndividualRadius end
 					
-					if (offset.Y - gear.Radius) < lowest then lowest = offset.Y - gear.Radius end
-					if (offset.Y + gear.Radius) > highest then highest = offset.Y + gear.Radius end
+					if (offset.Y - gear.IndividualRadius) < lowest then lowest = offset.Y - gear.IndividualRadius end
+					if (offset.Y + gear.IndividualRadius) > highest then highest = offset.Y + gear.IndividualRadius end
 				end
 				
 				--limb:GibThis();
@@ -155,7 +155,7 @@ function Update(self)
 		return
 	else
 		local rayOrigin = self.Pos
-		local rayVec = Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.Vel.Magnitude * rte.PxTravelledPerFrame + self.Radius);
+		local rayVec = Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.Vel.Magnitude * rte.PxTravelledPerFrame + self.IndividualRadius);
 		local moCheck = SceneMan:CastMORay(rayOrigin, rayVec, self.ID, self.Team, 0, false, 2); -- Raycast
 		if moCheck ~= rte.NoMOID then
 			local rayHitPos = SceneMan:GetLastRayHitPos()

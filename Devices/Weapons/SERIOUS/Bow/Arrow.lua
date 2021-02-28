@@ -3,7 +3,7 @@ function Create(self)
 	--[[
 	local trail = CreateMOPixel("Bow Arrow Trail"); -- Add the coolest thing, custom trail TM
 	trail.Team = self.Team -- You can remove it if you wish, the trail used to damage the target
-	trail.Pos = self.Pos - Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.Radius * 0.9);
+	trail.Pos = self.Pos - Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.IndividualRadius * 0.9);
 	trail.Vel = self.Vel;
 	MovableMan:AddParticle(trail);
 	
@@ -89,7 +89,7 @@ function Update(self)
 			if self.stuck then
 				MO.ToDelete = true;
 			else
-				MO.Pos = self.Pos - Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.Radius * 0.9);
+				MO.Pos = self.Pos - Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.IndividualRadius * 0.9);
 				MO.Vel = self.Vel;
 				MO.ToDelete = false;
 				MO.ToSettle = false;
@@ -99,7 +99,7 @@ function Update(self)
 	
 	if self.phase == 0 and self.Vel.Magnitude > 13 then -- Raycast, stick to things
 		local rayOrigin = self.Pos
-		local rayVec = Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.Vel.Magnitude * rte.PxTravelledPerFrame + self.Radius);
+		local rayVec = Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.Vel.Magnitude * rte.PxTravelledPerFrame + self.IndividualRadius);
 		local moCheck = SceneMan:CastMORay(rayOrigin, rayVec, self.ID, self.Team, 0, false, 2); -- Raycast
 		if moCheck ~= rte.NoMOID then
 			local rayHitPos = SceneMan:GetLastRayHitPos()
@@ -117,7 +117,7 @@ function Update(self)
 				-- Damage, create a pixel that makes a hole
 				local pixel = CreateMOPixel("Bow Arrow Damage");
 				pixel.Vel = self.Vel;
-				pixel.Pos = self.Pos - Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.Radius * 0.9);
+				pixel.Pos = self.Pos - Vector(self.Vel.X,self.Vel.Y):SetMagnitude(self.IndividualRadius * 0.9);
 				pixel.Team = self.Team;
 				pixel.IgnoresTeamHits = true;
 				pixel.WoundDamageMultiplier = 1 + pixel.WoundDamageMultiplier * self.Vel.Magnitude / 100;--1.53;
@@ -185,7 +185,7 @@ function Update(self)
 			local terrCheck = SceneMan:CastStrengthSumRay(rayOrigin, rayOrigin + rayVec, 2, 0); -- Raycast
 			if terrCheck > 5 then
 				local rayHitPos = SceneMan:GetLastRayHitPos()
-				self.Pos = rayHitPos - Vector(self.Radius * self.stickDeepness, 0):RadRotate(self.RotAngle);
+				self.Pos = rayHitPos - Vector(self.IndividualRadius * self.stickDeepness, 0):RadRotate(self.RotAngle);
 				
 				self.PinStrength = 1000;
 				self.Vel = Vector()
@@ -226,7 +226,7 @@ function Update(self)
 		if self.stickMO.ID ~= rte.NoMOID and not self.decayTimer:IsPastSimMS(self.decayTime) and self.PinStrength > 10 then
 			--self.Pos = self.stickMO.Pos + Vector(self.stickVec.X, self.stickVec.Y):RadRotate(self.stickMO.RotAngle)
 			self.RotAngle = self.stickMO.RotAngle + self.stickRot + math.sin(self.stickWiggle * math.pi * 4.0) * self.stickWiggle * 0.3 + math.sin(self.stickWiggle * math.pi * 8.0) * 0.1
-			self.Pos = self.stickMO.Pos + Vector(self.stickVecX, self.stickVecY):RadRotate(self.stickMO.RotAngle) - Vector(self.Radius * self.stickDeepness, 0):RadRotate(self.RotAngle);
+			self.Pos = self.stickMO.Pos + Vector(self.stickVecX, self.stickVecY):RadRotate(self.stickMO.RotAngle) - Vector(self.IndividualRadius * self.stickDeepness, 0):RadRotate(self.RotAngle);
 			self.PinStrength = 1000;
 			self.AngularVel = 0;
 			

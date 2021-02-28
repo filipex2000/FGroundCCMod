@@ -17,12 +17,12 @@ function Create(self)
 	
 	for i = 1, 2 do
 		local fire = CreateMOSParticle("Flame 2 Hurt");
-		fire.Pos = self.Pos + Vector(RangeRand(-self.Radius, self.Radius), RangeRand(-self.Radius, self.Radius))
+		fire.Pos = self.Pos + Vector(RangeRand(-self.IndividualRadius, self.IndividualRadius), RangeRand(-self.IndividualRadius, self.IndividualRadius))
 		fire.Vel = self.Vel * RangeRand(0.5,1.2);
 		MovableMan:AddParticle(fire);
 		
 		local smoke = CreateMOSParticle("Explosion Smoke 2");
-		smoke.Pos = self.Pos + Vector(RangeRand(-self.Radius, self.Radius), RangeRand(-self.Radius, self.Radius))
+		smoke.Pos = self.Pos + Vector(RangeRand(-self.IndividualRadius, self.IndividualRadius), RangeRand(-self.IndividualRadius, self.IndividualRadius))
 		smoke.Vel = self.Vel * RangeRand(0.5,1.2);
 		smoke.Lifetime = smoke.Lifetime * RangeRand(0.7,1.3) * 2.0;
 		MovableMan:AddParticle(smoke);

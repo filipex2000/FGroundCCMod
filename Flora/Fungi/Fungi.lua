@@ -18,7 +18,7 @@ function Update(self)
 			if self.PresetName == "Fungi Neck" then
 				if self:GetNumberValue("Iteration") < 4 then
 					toTerrainMO = CreateMOSRotating("Fungi Neck");
-					toTerrainMO.Pos = self.Pos + Vector(self.Radius * RangeRand(0.75,1.25), 0):RadRotate(self.RotAngle)
+					toTerrainMO.Pos = self.Pos + Vector(self.IndividualRadius * RangeRand(0.75,1.25), 0):RadRotate(self.RotAngle)
 					toTerrainMO.RotAngle = self.RotAngle + math.rad(RangeRand(-1,1) * 5.0 * math.random(1,3)) 
 					toTerrainMO.HFlipped = false--self.HFlipped
 					toTerrainMO:SetNumberValue("Iteration", self:GetNumberValue("Iteration") + 1)
@@ -28,7 +28,7 @@ function Update(self)
 					--toTerrainMO:EraseFromTerrain()
 				else
 					toTerrainMO = CreateMOSRotating("Fungi Head");
-					toTerrainMO.Pos = self.Pos + Vector(self.Radius, 0):RadRotate(self.RotAngle)
+					toTerrainMO.Pos = self.Pos + Vector(self.IndividualRadius, 0):RadRotate(self.RotAngle)
 					toTerrainMO.RotAngle = self.RotAngle + math.rad(RangeRand(-1,1) * 5.0) 
 					toTerrainMO.HFlipped = self.HFlipped
 					toTerrainMO.Frame = 0

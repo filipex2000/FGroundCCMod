@@ -47,7 +47,7 @@ function Update(self)
 			
 			actor:FlashWhite(50);
 			
-			local actorSize = math.ceil(5 + actor.Radius * 0.5);
+			local actorSize = math.ceil(5 + actor.IndividualRadius * 0.5);
 			for i = 1, actorSize do
 				local part = CreateMOPixel("Heal Glow", "Base.rte");
 				local vec = Vector(actorSize * 1.5, 0):RadRotate(6.28/actorSize * i);

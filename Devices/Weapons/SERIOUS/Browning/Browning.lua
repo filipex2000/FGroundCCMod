@@ -193,11 +193,12 @@ function Update(self)
 			
 			local total = (- self.RotAngle + math.rad(125) * self.FlipFactor) * factor
 			
-			self.RotAngle = self.RotAngle + total;
+			--self.RotAngle = self.RotAngle + total;
+			self.InheritedRotAngleOffset = total * self.FlipFactor
 			
-			local jointOffset = Vector(self.originalJointOffset.X * self.FlipFactor, self.originalJointOffset.Y):RadRotate(self.RotAngle);
-			local offsetTotal = Vector(jointOffset.X, jointOffset.Y):RadRotate(-total) - jointOffset
-			self.Pos = self.Pos + offsetTotal-- * factor;
+			--local jointOffset = Vector(self.originalJointOffset.X * self.FlipFactor, self.originalJointOffset.Y):RadRotate(self.RotAngle);
+			--local offsetTotal = Vector(jointOffset.X, jointOffset.Y):RadRotate(-total) - jointOffset
+			--self.Pos = self.Pos + offsetTotal-- * factor;
 			
 			local dif = SceneMan:ShortestDistance(parent.Pos, self.Pos,SceneMan.SceneWrapsX)
 			self.Pos = self.Pos - dif

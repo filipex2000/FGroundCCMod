@@ -329,7 +329,7 @@ function Update(self)
 				self.randHTimer:Reset()
 			end
 			
-			self.hoverPosTarget = self.target.Pos + Vector(0, - (self.target.Height * 0.25 + self.target.Radius * 1.5) / 2) + self.randVec;
+			self.hoverPosTarget = self.target.Pos + Vector(0, - (self.target.Height * 0.25 + self.target.IndividualRadius * 1.5) / 2) + self.randVec;
 		end
 		
 		if self.decayTimer:IsPastSimMS(10000) then
@@ -344,11 +344,11 @@ function Update(self)
 				self.randHTimer:Reset()
 			end
 			
-			--self.hoverPosTarget = self.master.Pos + Vector(0, - self.master.Radius * 1.5) + self.randVec;
+			--self.hoverPosTarget = self.master.Pos + Vector(0, - self.master.IndividualRadius * 1.5) + self.randVec;
 			if self.attackType == 1 and self.target ~= nil and self.target.ID ~= rte.NoMOID then  -- Close Range Attack
-				self.hoverPosTarget = (self.target.Pos + (self.master.Pos + Vector(0, - (self.master.Height * 0.25 + self.master.Radius * 1.5) / 2) + self.randVec) * 3.0) / 4.0;
+				self.hoverPosTarget = (self.target.Pos + (self.master.Pos + Vector(0, - (self.master.Height * 0.25 + self.master.IndividualRadius * 1.5) / 2) + self.randVec) * 3.0) / 4.0;
 			else
-				self.hoverPosTarget = self.master.Pos + Vector(0, - (self.master.Height * 0.25 + self.master.Radius * 1.5) / 2) + self.randVec;
+				self.hoverPosTarget = self.master.Pos + Vector(0, - (self.master.Height * 0.25 + self.master.IndividualRadius * 1.5) / 2) + self.randVec;
 			end
 			
 			if self.master.Status == Actor.DEAD or self.master.Status == Actor.DYING then
@@ -463,10 +463,10 @@ function OnCollideWithTerrain(self, terrainID)
 	end
 	
 	-- Custom move out of terrain script, EXPERIMENTAL
-	--PrimitiveMan:DrawCirclePrimitive(self.Pos, self.Radius, 13);
+	--PrimitiveMan:DrawCirclePrimitive(self.Pos, self.IndividualRadius, 13);
 	local maxi = 8
 	for i = 1, maxi do
-		local offset = Vector(self.Radius, 0):RadRotate(((math.pi * 2) / maxi) * i)
+		local offset = Vector(self.IndividualRadius, 0):RadRotate(((math.pi * 2) / maxi) * i)
 		local endPos = self.Pos + offset; -- This value is going to be overriden by function below, this is the end of the ray
 		self.ray = SceneMan:CastObstacleRay(self.Pos + offset, offset * -1.0, Vector(0, 0), endPos, 0 , self.Team, 0, 1)
 		if self.ray == 0 then
