@@ -10,7 +10,6 @@ function Update(self)
 	self.soundFlyby.Pos = self.Pos
 	
 	self.GlobalAccScalar = math.min(1.8, self.GlobalAccScalar + 1.5 * TimerMan.DeltaTimeSecs)
-	print(self.GlobalAccScalar)
 end
 
 function Destroy(self)
