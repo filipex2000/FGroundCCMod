@@ -119,7 +119,7 @@ function Update(self)
 	
 	if self.landed then
 		if self.landedDetachTimer:IsPastSimMS(self.landedDetachDelay) then
-			--if self:IsAttached() then ToMOSRotating(self:GetParent()):RemoveAttachable(self, true, false) end
+			self:RemoveFromParent(true, false)
 			if self.landedDetachTimer:IsPastSimMS(self.landedDetachDelay + 4000) then
 				self:GibThis()
 			end
